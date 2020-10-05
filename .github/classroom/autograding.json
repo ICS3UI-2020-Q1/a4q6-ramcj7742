@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Sample 1",
+      "setup": "javac Main.java",
+      "run": "java Main",
+      "input": "85",
+      "output": "Which number would you like to check?\r\n85 is not a prime number\r\n",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "Sample 2",
+      "setup": "javac Main.java",
+      "run": "java Main",
+      "input": "73",
+      "output": "Which number would you like to check?\r\n73 is a prime number\r\n",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    }
+  ]
+}
